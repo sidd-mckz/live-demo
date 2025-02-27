@@ -29,5 +29,5 @@ tasks.named('test') {
 }
 
 bootJar {
-    archiveFileName = "${project.name}-${project.version}.jar"
+    excludeDevtools = false
 }
