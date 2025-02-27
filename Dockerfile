@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Copy the built JAR file
-COPY build/libs/*.jar app.jar
+COPY build/libs/demo-0.0.1.jar app.jar
 
 # Expose the application port
 EXPOSE 8080
