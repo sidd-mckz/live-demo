@@ -27,7 +27,3 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
-
-bootJar {
-    excludeDevtools = false
-}
